@@ -1,11 +1,9 @@
 import React from "react";
-import { useState } from "react";
-import { motion, AnimateSharedLayout } from "framer-motion";
+import { motion } from "framer-motion";
 import TUD from "../assets/TU-Dublin-Careers-Banner-min.jpg";
 import { edu } from "../data/data";
 import EducationCard from "./EducationCard";
 export default function About() {
-  const [isOpen, toggle] = useState(false);
 
   const motion_var = {
     hidden: {
@@ -36,9 +34,9 @@ export default function About() {
     >
       <div className="edu">
         <div className="intro ">
-          <a href="https://www.tudublin.ie/ " target="_blank">
+          <a href="https://www.tudublin.ie/ " alt="tud"  rel="noopener noreferrer"target="_blank">
             {" "}
-            <img src={TUD} />{" "}
+            <img src={TUD} alt="tud" />{" "}
           </a>
         </div>
 

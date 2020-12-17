@@ -5,11 +5,11 @@ const ProjectCard = ({ project }) => {
     return (
         <div className="projectCard col-md-6 col-lg-4 my-2">
             <figure className="projectCard-wrapper">
-                <a href="!#" target="_blank">
+                <a href={project.url} rel="noopener noreferrer"  target="_blank">
                     <img src={project.image} alt={project.name} className="projectCard-image" />
                 </a>
                 <div className="projectCard-title">
-                    <a href={project.url} target="_blank">
+                    <a href={project.url} rel="noopener noreferrer" target="_blank">
                        <IoLogoGithub className="projectCard-icon" />
                         {project.name}
                     </a>

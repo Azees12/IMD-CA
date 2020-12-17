@@ -20,7 +20,7 @@ export const about = [
   {
     id: 2,
     title: "Food Manic",
-    about: "I already know the best resturants",
+    about: "I already know the best restaurants in town",
     body:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis velit ligula, non mattis turpis volutpat blandit. Donec ut molestie ipsum. Duis porttitor quam non enim tempor vestibulum. Sed faucibus diam non rhoncus bibendum. Integer volutpat et nunc et viverra. Duis ante arcu, efficitur eu accumsan ultrices, condimentum ut augue. Sed in eros quis lectus dictum dictum. Cras ultricies nulla ex, quis commodo urna facilisis nec. Mauris at felis lorem. Nam aliquam rutrum ex, sed accumsan odio eleifend eget. Fusce volutpat bibendum venenatis. Morbi eu scelerisque massa.",
   
@@ -277,41 +277,41 @@ export const projects = [
   {
     name:"Employee Website",
     image: java,
-    url:"a"
+    url:"https://github.com/Azees12/CA1"
 
 
  },
  {
   name:"PBN",
   image:react,
-  url:"a"
+  url:"https://github.com/Azees12/ITTallghtComputing---project-Azees12"
 
 
 },
 {
-  name:"Filler",
-  image:java,
-  url:"!#"
+  name:"IMD-CA2",
+  image:react,
+  url:"https://github.com/Azees12/IMD-CA"
 
 
 },
 {
-  name:"Whateever",
-  image:java,
+  name:"",
+  image:flask,
   url:""
 
 
 },
 {
-  name:"Whateever",
-  image:java,
+  name:"",
+  image:typescript,
   url:""
 
 
 },
 {
-  name:"Whateever",
-  image:java,
+  name:"",
+  image:python,
   url:""
 
 

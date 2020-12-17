@@ -1,10 +1,9 @@
 import React from "react";
 import {useState} from "react"
 import { motion} from "framer-motion";
-import About_Card from './About_Card';
+import AboutCard from './AboutCard';
 import {about} from '../data/data'
 import Modal from './Modal';
-import Achievements from './Achievements';
 export default function About() {
   
     const [selectedAbout, setSelectedAbout] = useState(null)
@@ -63,7 +62,7 @@ export default function About() {
 
        
         <div className="row about-more">
-            {about.map(about => <About_Card open={modalAboutOpen} thing={about}/> )}
+            {about.map(about => <AboutCard open={modalAboutOpen} thing={about}/> )}
         </div>
 
   <div className=" exp-header row ">

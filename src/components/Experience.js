@@ -42,7 +42,7 @@ export default function Experience() {
             </div>
 
             <div className="exp-img">
-              <a href="https://www.totalproduce.com/" target="_blank">  <img  src={totalproduce} /></a>
+              <a href="https://www.totalproduce.com/" rel="noopener noreferrer"  target="_blank">  <img alt="total" src={totalproduce} /></a>
             </div>
             <div>
               <span className="exp-details-name">Software Developer</span>
@@ -65,7 +65,7 @@ export default function Experience() {
             </div>
 
             <div className="exp-img">
-              <a href="https://www.kefron.com/" target="_blank"><img src={kef} /></a>
+              <a href="https://www.kefron.com/"  rel="noopener noreferrer" target="_blank"><img alt="kef" src={kef} /></a>
             </div>
             <div>
               <span className="exp-details-name">Digital Operative</span>
@@ -97,7 +97,7 @@ export default function Experience() {
             'width': lag.level
         }}>
             <span className="skill-bar-name">
-              <img src={lag.icon} className="skill-bar-icon"/> {lag.name}
+              <img alt="skill" src={lag.icon} className="skill-bar-icon"/> {lag.name}
             </span>
 
         </div> </div>
@@ -127,7 +127,7 @@ export default function Experience() {
             
 
             <span className="skill-bar-name">
-            <img src={lag.icon} className="skill-bar-icon"/> {lag.name}
+            <img alt="abc" src={lag.icon} className="skill-bar-icon"/> {lag.name}
             </span>
            
 

@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
-import { AnimatePresence, AnimateSharedLayout } from "framer-motion";
-import { IoChevronDown } from "react-icons/io5";
+import { AnimatePresence } from "framer-motion";
+
 
 const EducationCard = ({ thing }) => {
   const [isOpen, setIsOpen] = useState(true);

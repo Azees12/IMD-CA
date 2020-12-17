@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React          from "react";
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import Experience from "./components/Experience";
@@ -6,14 +6,11 @@ import Education from "./components/Education";
 import About from "./components/About";
 import {motion} from 'framer-motion'
 import Projects from "./components/Projects";
-
-import vd from "./assets/Galaxy.mp4"
 import {
   Redirect,
   Route,
   Switch,
   useLocation,
-  BrowserRouter as Router
 } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 

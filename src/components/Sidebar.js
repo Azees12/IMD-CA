@@ -58,7 +58,7 @@ const handleEmail = () => {
       <motion.div  variants={item}>
         <img  src={me} alt="" className="sidebarImage" />
         <div className="sidebarName">
-        <a  href=""><img className="sidebar-sign" src="https://fontmeme.com/permalink/201214/a06b17fa9c5dac43f5f3135ec6f2b8f9.png" alt="signature-fonts" border="0"/></a>
+        <a href="a" rel="noopener noreferrer" ><img className="sidebar-sign" src="https://fontmeme.com/permalink/201214/a06b17fa9c5dac43f5f3135ec6f2b8f9.png" alt="signature-fonts" border="0"/></a>
         </div>
         </motion.div>
         <motion.div variants={item}>
@@ -70,20 +70,20 @@ const handleEmail = () => {
         <motion.div variants={item}>
         <div className="sidebarItem ">
           <IoBriefcase alt="resume" className="sidebarIcon mr-2" />
-          <Link to={cv} target="_blank" download><a>{"Check Out my CV"}</a></Link>
+          <Link to={cv} target="_blank" download><a href="!#">{"Check Out my CV"}</a></Link>
         </div>
         <hr />
       </motion.div>
 
       <motion.div variants={item}>
         <figure className="sidebarSocialIcons my-2">
-          <a href="https://www.instagram.com/azeesfetuga/?hl=en" target="_blank" alt="" className="sidebarIcon">
+          <a href="https://www.instagram.com/azeesfetuga/?hl=en" rel="noopener noreferrer" target="_blank" alt="" className="sidebarIcon">
             <IoLogoInstagram className="sidebarIcon mr-4" />
           </a>
-          <a href="https://www.facebook.com/azees.fetuga" target="_Blank" alt="" className="sidebarIcon">
+          <a href="https://www.facebook.com/azees.fetuga" rel="noopener noreferrer"  target="_Blank" alt="" className="sidebarIcon">
             <IoLogoFacebook className="sidebarIcon mr-4" />
           </a>
-          <a href="https://www.linkedin.com/in/azees-fetuga/" target="_Blank" alt="" className="sidebarIcon">
+          <a href="https://www.linkedin.com/in/azees-fetuga/" rel="noopener noreferrer" target="_Blank" alt="" className="sidebarIcon">
             <IoLogoLinkedin className="sidebarIcon" />
           </a>
         </figure>
@@ -95,7 +95,7 @@ const handleEmail = () => {
             {" "}
             <IoLogoGithub className="sidebarIcon" />
             <span alt="Github" className="sidebarIcon sidebarCV mr-2" />
-            <a href="https://github.com/Azees12" target="_blank">GitHub</a>
+            <a href="https://github.com/Azees12" rel="noopener noreferrer" target="_blank">GitHub</a>
           </div>
           <div className="sidebarItem">
             <IoLocation className="sidebarIcon mr-2" />
