@@ -272,7 +272,6 @@ export const ts = [
     icon: flask,
   },
 ];
-a
 
 export const projects = [
   {
