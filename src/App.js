@@ -12,7 +12,7 @@ import {
   Switch,
   useLocation,
 } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
+
 
 function App() {
 
@@ -60,7 +60,7 @@ function App() {
             className="col-lg-9 content">
               <Navbar />
               <div className="content-body">
-            <AnimatePresence>
+          
                 <Switch location={location} key={location.key}>
                   <Route exact path="/">
                     <About />
@@ -78,7 +78,7 @@ function App() {
                     <Redirect to="/" />
                   </Route>
                 </Switch>
-        </AnimatePresence>
+    
               </div>
             </motion.div>
           </div>
