@@ -70,7 +70,7 @@ const handleEmail = () => {
         <motion.div variants={item}>
         <div className="sidebarItem ">
           <IoBriefcase alt="resume" className="sidebarIcon mr-2" />
-          <Link to={cv} target="_blank" download><a href="!#">{"Check Out my CV"}</a></Link>
+          <Link to={cv} target="_blank" download><a href={cv}  target="_blank">{"Check Out my CV"}</a></Link>
         </div>
         <hr />
       </motion.div>
