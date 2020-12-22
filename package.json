@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://azees12.github.io/IMD-CA/",
+  "homepage": "https://azees12.github.io/IMD-CA",
   "dependencies": {
     "cra-template": "1.0.3",
     "framer-motion": "^2.9.5",
